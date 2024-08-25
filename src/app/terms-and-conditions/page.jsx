@@ -4,12 +4,17 @@ export const metadata = {
   title: content.meta.pages.termsAndConditions.title,
   description: content.meta.pages.termsAndConditions.description,
   canonical: 'https://minidrone.co.il/terms-and-conditions',
-  'og:title': content.meta.pages.termsAndConditions.title,
-  'og:description': content.meta.pages.termsAndConditions.description,
-  'og:url': 'https://minidrone.co.il/terms-and-conditions',
-  'twitter:card': 'summary_large_image',
-  'twitter:title': content.meta.pages.termsAndConditions.title,
-  'twitter:description': content.meta.pages.termsAndConditions.description,
+  openGraph: {
+    siteName: content.meta.pages.termsAndConditions.title,
+    title: content.meta.pages.termsAndConditions.title,
+    description: content.meta.pages.termsAndConditions.description,
+    url: 'https://minidrone.co.il/terms-and-conditions',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: content.meta.pages.termsAndConditions.title,
+    description: content.meta.pages.termsAndConditions.description,
+  },
 };
 
 const TermsAndConditionsPage = () => {

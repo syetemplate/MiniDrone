@@ -3,17 +3,24 @@ import Features from '@/components/Features';
 import Benefits from '@/components/Benefits';
 import Gallery from '@/components/Gallery';
 import content from '@/content';
+import favicon from '@/assets/media/favicon.ico';
+import appleIcon from '@/assets/media/apple-icon.png';
 
 export const metadata = {
   title: content.meta.pages.homePage.title,
   description: content.meta.pages.homePage.description,
   canonical: 'https://minidrone.co.il',
-  'og:title': content.meta.pages.homePage.title,
-  'og:description': content.meta.pages.homePage.description,
-  'og:url': 'https://minidrone.co.il',
-  'twitter:card': 'summary_large_image',
-  'twitter:title': content.meta.pages.homePage.title,
-  'twitter:description': content.meta.pages.homePage.description,
+  openGraph: {
+    siteName: content.meta.pages.homePage.title,
+    title: content.meta.pages.homePage.title,
+    description: content.meta.pages.homePage.description,
+    url: 'https://minidrone.co.il',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: content.meta.pages.homePage.title,
+    description: content.meta.pages.homePage.description,
+  },
 };
 
 const HomePage = () => {

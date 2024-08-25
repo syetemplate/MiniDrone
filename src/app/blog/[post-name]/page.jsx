@@ -10,12 +10,17 @@ export const generateMetadata = ({ params }) => {
     title: `${content.meta.titlePrefix}${currentPost.title}`,
     description: currentPost.description,
     canonical: `https://minidrone.co.il${currentPost.href}`,
-    'og:title': `${content.meta.titlePrefix}${currentPost.title}`,
-    'og:description': currentPost.description,
-    'og:url': `https://minidrone.co.il${currentPost.href}`,
-    'twitter:card': 'summary_large_image',
-    'twitter:title': `${content.meta.titlePrefix}${currentPost.title}`,
-    'twitter:description': currentPost.description,
+    openGraph: {
+      siteName: `${content.meta.titlePrefix}${currentPost.title}`,
+      title: `${content.meta.titlePrefix}${currentPost.title}`,
+      description: currentPost.description,
+      url: `https://minidrone.co.il${currentPost.href}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${content.meta.titlePrefix}${currentPost.title}`,
+      description: currentPost.description,
+    },
   }
 };
 

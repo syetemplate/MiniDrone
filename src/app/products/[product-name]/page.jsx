@@ -11,12 +11,17 @@ export const generateMetadata = ({ params }) => {
     title: productItem.name,
     description: productItem.description,
     canonical: `https://minidrone.co.il${productItem.href}`,
-    'og:title': productItem.name,
-    'og:description': productItem.description,
-    'og:url': `https://minidrone.co.il${productItem.href}`,
-    'twitter:card': 'summary_large_image',
-    'twitter:title': productItem.name,
-    'twitter:description': productItem.description,
+    openGraph: {
+      siteName: productItem.name,
+      title: productItem.name,
+      description: productItem.description,
+      url: `https://minidrone.co.il${productItem.href}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: productItem.name,
+      description: productItem.description,
+    },
   }
 };
 
