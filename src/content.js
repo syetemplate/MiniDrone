@@ -603,10 +603,10 @@ export default {
         title: 'ביקורות',
         description: 'לקוחות מכל רחבי העולם נהנים מהאיכות, הביצועים והבטיחות של רחפני MiniDrone.',
         list: [
-            { name: 'יוני לוי', text: 'הזמנתי את MiniDrone כמתנה לבן שלי והוא פשוט מאוהב בו. רחפן איכותי ועמיד שמספק שעות של הנאה.', avatarImageName: 'testimonial-1-avatar.jpg' },
-            { name: 'תמר כהן', text: 'קיבלתי שירות לקוחות יוצא מן הכלל מצוות MiniDrone. הם ענו על כל השאלות שלי ועזרו לי לבחור את הדגם המתאים עבור הבת שלי.', avatarImageName: 'testimonial-2-avatar.jpg' },
-            { name: 'דוד פרץ', text: 'הMiniDrone הוא מתנה מושלמת לכל ילד. הוא קל לתפעול, בעל מצלמה מעולה ובטיחות מובנית. אחד הרחפנים הטובים ביותר בשוק לדעתי.', avatarImageName: 'testimonial-3-avatar.jpg' },
-            { name: 'רחל גרין', text: 'כיף לצפות בילדים שלי נהנים מחוויית הטיסה עם הMiniDrone. המחיר סביר בהחלט ביחס לאיכות של המוצר. מומלץ בחום!', avatarImageName: 'testimonial-4-avatar.jpg' },
+            { name: 'דוד כהן', text: 'הרחפן הכי מתקדם ששיחקתי איתו אי פעם. התכונות והאיכות פשוט יוצאות דופן!', avatarImageName: 'testimonial-1-avatar.webp' },
+            { name: 'אורלי כהן', text: 'קניתי את זה לעצמי והילדים פשוט מתים עליו. השקעה נהדרת עבור כל המשפחה.', avatarImageName: 'testimonial-2-avatar.webp' },
+            { name: 'יוני לוי', text: 'הטכנולוגיה בדבר הזה היא פשוט מדהימה. זה כיף גדול וקל לשימוש גם עבור מתחילים.', avatarImageName: 'testimonial-3-avatar.webp' },
+            { name: 'בן חביב', text: ' מוצר נהדר. מחיר טוב מאוד ונוח .', avatarImageName: 'testimonial-4-avatar.webp' },
         ],
     },
     cart: {
