@@ -34,6 +34,21 @@ export const viewport = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="he" dir="rtl" suppressHydrationWarning className={`${poppins.variable} ${assistant.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "MiniDrone - רחפנים לילדים",
+              "url": "https://minidrone.co.il",
+              "description": "רחפנים מתקדמים, קלים לשימוש ובטוחים במיוחד עבור ילדים ומתחילים",
+              "inLanguage": "he-IL"
+            })
+          }}
+        />
+      </head>
       <body className="h-screen inline">
         <CartProvider>
           <Header />
