@@ -6,7 +6,7 @@ import WhatsAppFloatingIcon from '@/components/WhatsAppFloatingIcon';
 import favicon from '@/assets/media/favicon.ico';
 import appleIcon from '@/assets/media/apple-icon.png';
 import content from '@/content';
-import { poppins, assistant } from './fonts';
+import { poppins, assistant, fredoka } from './fonts';
 import '@/assets/css/style.scss';
 
 export const metadata = {
@@ -33,7 +33,7 @@ export const viewport = {
 
 const RootLayout = ({ children }) => {
   return (
-    <html lang="he" dir="rtl" suppressHydrationWarning className={`${poppins.variable} ${assistant.variable}`}>
+    <html lang="he" dir="rtl" suppressHydrationWarning className={`${poppins.variable} ${assistant.variable} ${fredoka.variable}`}>
       <head>
         <script
           type="application/ld+json"

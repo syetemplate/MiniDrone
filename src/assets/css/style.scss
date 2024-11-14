@@ -35,13 +35,14 @@
 }
 
 :root {
-	--font-poppins: var(--font-poppins);
-	--font-assistant: var(--font-assistant);
+	// --font-poppins: 'Poppins', sans-serif;
+	// --font-assistant: 'Assistant', sans-serif;
+	// --font-fredoka: 'Fredoka', sans-serif;
 	--color-primary: #0060ac;
 }
 
 body {
-	font-family: var(--font-assistant), var(--font-poppins), sans-serif;
+	font-family: var(--font-fredoka), var(--font-assistant), var(--font-poppins), sans-serif;
 	font-weight: 500;
 	font-style: normal;
 	font-size: 14px;
@@ -691,7 +692,7 @@ label {
 }
 
 .slider-content {
-	padding-top: 60px;
+	padding-top: 0;
 }
 
 .slider-active .slick-arrow {
